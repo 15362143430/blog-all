@@ -1,0 +1,369 @@
+/*头部*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+#login{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(0,139,139,0.3);
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	text-align: right;
+}
+#login a{
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 5px;
+}
+#login span{
+	font-size: 18px;
+}
+
+#blog-header {
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	background: url(../img/header-bg.jpg);
+	font-size: 50px;
+}
+#blog-header img{
+	position: absolute;
+	top: -10px;
+	left: 0;
+}
+
+
+/*导航*/
+
+#blog-nav {
+	width: 100%;
+	background: #262a30;
+	height: 50px;
+}
+
+#blog-nav ul li {
+	float: left;
+	line-height: 50px;
+	margin: 0 5px;
+}
+
+#blog-nav ul li a {
+	display: block;
+	height: 100%;
+	color: #fff;
+	font-size: 18px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+#blog-nav ul li a:hover {
+	background: #FFFFFF;
+	color: black;
+	box-sizing: border-box;
+	border-bottom: 4px solid rgb(219, 109, 76);
+}
+
+
+/*主体*/
+
+#blog-body {
+	margin-top: 20px;
+}
+
+#blog-body>.w {
+	display: flex;
+	justify-content: space-between;
+}
+
+#content {
+	background: #FFFFFF;
+}
+
+#blog-body #content #lunbotu {
+	display: flex;
+	width: 670px;
+	height: 280px;
+	position: relative;
+}
+#blogger-msg{
+	width: 25%;
+	height: 100%;
+}
+#msg{
+	box-sizing: border-box;
+	width: 100%;
+	height: 48%;
+	border: 2px solid hotpink;
+	/*border-left: none;*/
+	margin-bottom: 6%;
+}
+#hobbies{
+	box-sizing: border-box;
+	width: 100%;
+	height: 48%;
+	border: 2px solid yellow;
+	/*border-left: none;*/
+}
+
+#blog-body #content #article {
+	margin-top: 20px;
+	/*border: 1px solid black;*/
+}
+
+#article-header {
+	width: 670px;
+	height: 36px;
+	border-bottom: 4px solid rgb(219, 109, 76);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#article-header p {
+	font-family: "Microsoft Yahei", Simsun;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 10px;
+	display: inline-block;
+}
+#article-header a{
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+}
+#article-header a:hover{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+#article-body {
+	width: 670px;
+}
+
+#articleTitle{
+	color: black;
+	font-size:30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#time{
+	font-size: 16px;
+}
+#author{
+	font-size: 16px;
+}
+#titleContent{
+	margin-bottom: 50px;
+}
+/*#article-body .article-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	width: 100%;
+	height: 140px;
+	border-bottom: 1px solid #BFAB86;
+}
+
+#article-body .article-content img {
+	width: 25%;
+	height: 140px;
+}
+
+#article-body .article-content ul {
+	width: 72%;
+	height: 140px;
+}
+
+#article-body .article-content h3 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Microsoft Yahei", Simsun;
+	margin-bottom: 10px;
+}
+#article-body .article-content h3 a:hover{
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+#article-body .article-content ul p:nth-child(2){
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	color: #777;
+	line-height: 22px;
+	font-family: "微软雅黑";
+}
+#article-body .article-content ul p:nth-child(3){
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 20px;
+}*/
+.type{
+	font-size: 16px;
+	color: #759b08;
+}
+.type:hover{
+	border-bottom:1px solid #759b08 ;
+}
+.date{
+	font-size: 16px;
+}
+
+#catalog {
+	width: 320px;
+	height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#blogger {
+	position: relative;
+	background: url(../img/bj1.jpg) no-repeat;
+	background-size: 100% 380px;
+	width: 100%;
+	height: 380px;
+	text-align: center;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
+
+#blogger img {
+	margin: 50px 70px 10px 70px;
+	border-radius: 50%;
+}
+#blogger .iconfont{
+	font-size: 35px;
+	color: black;
+}
+#blogger a{
+	margin: 0 10px;
+}
+#blogger .iconfont:hover{
+	color: #999;
+}
+
+#bloggerName {
+	font-family: "Microsoft Yahei", Simsun;
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+}
+
+#motto {
+	font-size: 16px;
+	color: black;
+	padding: 5px 10px 5px 10px;
+}
+#catalog h1{
+	margin-left: 20px;
+	font-weight: bold;
+	font-family: "Microsoft Yahei", Simsun;
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	
+}
+#catalog ul{
+	margin-left: 35px;
+	list-style: disc;
+	margin-bottom: 20px;
+}
+#catalog ul a{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+#catalog ul a:hover{
+	border-bottom: 1px solid #999;
+}
+#youqing{
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 100px;
+	background: #FFFFFF;
+	margin-left: 20px;
+}
+#youqing a{
+	width: 33%;
+	font-size: 14px;
+	margin: 0 12px;
+}
+#youqing a:hover{
+	color: #999;
+}
+
+
+#nav-right{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+/*	border: 1px solid black;*/
+}
+#nav-right-top{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 49%;
+	box-sizing: border-box;
+	margin-bottom: 1%;
+}
+#nav-right-bottom{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 49%;
+	box-sizing: border-box;
+}
+#nav-right-top a,#nav-right-bottom a{
+	width: 32.5%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 72px;
+	font-size: 16px;
+}
+#nav-right a span{
+	transition:all 0.8s;
+	display: block;
+}
+#nav-right a span:hover{
+	transform: rotate(360deg);
+	transform-origin: center center;
+}
+.nav-a1{
+	background-color: rgba(255,105,180,0.1);
+	border: 1px solid rgb(255,105,180);
+}
+.nav-a2{
+	background-color: rgba(	46,139,87,0.1);
+	border: 1px solid rgb(	46,139,87);
+}
+.nav-a3{
+	background-color: rgba(	255,215,0,0.1);
+	border: 1px solid rgb(	255,215,0);
+}
+.nav-a4{
+	background-color: rgba(	127,255,0,0.1);
+	border: 1px solid rgb(	127,255,0);
+}
+.nav-a5{
+	background-color: rgba(	0,191,255,0.1);
+	border: 1px solid rgb(	0,191,255);
+}
+.nav-a6{
+	background-color: rgba(138,43,226,0.1);
+	border: 1px solid rgb(138,43,226);
+}
